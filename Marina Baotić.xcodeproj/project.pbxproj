@@ -3,27 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B47AA2E425FA783200284AAB /* WebCamsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AA2E325FA783200284AAB /* WebCamsVC.swift */; };
+		B47E0D4325F53A8C00AAE172 /* ObjectDetailPhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E0D4225F53A8C00AAE172 /* ObjectDetailPhotosCell.swift */; };
+		B47E0D4625F5696300AAE172 /* BaoticPricelistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E0D4525F5696300AAE172 /* BaoticPricelistView.swift */; };
 		B48C9B7225EE532C00518154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9B7125EE532C00518154 /* AppDelegate.swift */; };
 		B48C9B7425EE532C00518154 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9B7325EE532C00518154 /* SceneDelegate.swift */; };
-		B48C9B7625EE532C00518154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9B7525EE532C00518154 /* ViewController.swift */; };
-		B48C9B7925EE532C00518154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48C9B7725EE532C00518154 /* Main.storyboard */; };
 		B48C9B7B25EE532D00518154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48C9B7A25EE532D00518154 /* Assets.xcassets */; };
 		B48C9B7E25EE532D00518154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48C9B7C25EE532D00518154 /* LaunchScreen.storyboard */; };
+		B48C9B8925EE54ED00518154 /* BaoticTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9B8825EE54ED00518154 /* BaoticTabBarController.swift */; };
+		B48C9B8C25EE564B00518154 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9B8B25EE564B00518154 /* HomeVC.swift */; };
+		B48C9B9025EE65F400518154 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9B8F25EE65F400518154 /* Constants.swift */; };
+		B48C9B9825EE80AE00518154 /* BaoticTitleLablel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9B9725EE80AE00518154 /* BaoticTitleLablel.swift */; };
+		B48C9B9B25EE84C600518154 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9B9A25EE84C600518154 /* WeatherView.swift */; };
+		B48C9B9E25EE859F00518154 /* BaoticHeadline1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9B9D25EE859F00518154 /* BaoticHeadline1.swift */; };
+		B48C9BC125EEABE600518154 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9BC025EEABE600518154 /* Weather.swift */; };
+		B48C9BC425EEACC500518154 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9BC325EEACC500518154 /* WeatherModel.swift */; };
+		B48C9BC725EEAD0000518154 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9BC625EEAD0000518154 /* WeatherManager.swift */; };
+		B48C9BD225EEE0E500518154 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9BD125EEE0E500518154 /* UIViewController+Ext.swift */; };
+		B49A1CD125F94BDC007541FD /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A1CD025F94BDC007541FD /* ServicesVC.swift */; };
+		B4D9006325F68D4A00E52E11 /* BaoticButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D9006225F68D4A00E52E11 /* BaoticButton.swift */; };
+		B4DF63D125EFF6D800C6756D /* BaoticAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63D025EFF6D800C6756D /* BaoticAlert.swift */; };
+		B4DF63D425EFFAF800C6756D /* BaoticError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63D325EFFAF800C6756D /* BaoticError.swift */; };
+		B4DF63D825F02D5200C6756D /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63D725F02D5200C6756D /* NewsCell.swift */; };
+		B4DF63DC25F02FD800C6756D /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63DB25F02FD800C6756D /* News.swift */; };
+		B4DF63E625F0387600C6756D /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63E525F0387600C6756D /* UIHelper.swift */; };
+		B4DF63EC25F0E58300C6756D /* ContentfulManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63EB25F0E58300C6756D /* ContentfulManager.swift */; };
+		B4DF63F025F1056F00C6756D /* BaoticBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63EF25F1056F00C6756D /* BaoticBackgroundView.swift */; };
+		B4DF63F725F1207400C6756D /* WebshopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63F625F1207400C6756D /* WebshopView.swift */; };
+		B4F68F6E25F3AB7F002BF74A /* GastronomyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F68F6D25F3AB7F002BF74A /* GastronomyVC.swift */; };
+		B4F68F7125F3F11F002BF74A /* BaoticScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F68F7025F3F11F002BF74A /* BaoticScrollView.swift */; };
+		B4F68F8425F40BD1002BF74A /* ObjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F68F8325F40BD1002BF74A /* ObjectCell.swift */; };
+		B4F68F8D25F4FA93002BF74A /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F68F8C25F4FA93002BF74A /* Object.swift */; };
+		B4F68F9025F503C4002BF74A /* ObjectDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F68F8F25F503C4002BF74A /* ObjectDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CAE7193B5FEBDB467C73989 /* Pods-Marina Baotić.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marina Baotić.release.xcconfig"; path = "Target Support Files/Pods-Marina Baotić/Pods-Marina Baotić.release.xcconfig"; sourceTree = "<group>"; };
+		12FAB22CD0AEE8C879CFDB4D /* Pods-Marina Baotić.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marina Baotić.debug.xcconfig"; path = "Target Support Files/Pods-Marina Baotić/Pods-Marina Baotić.debug.xcconfig"; sourceTree = "<group>"; };
+		B47AA2E325FA783200284AAB /* WebCamsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCamsVC.swift; sourceTree = "<group>"; };
+		B47E0D4225F53A8C00AAE172 /* ObjectDetailPhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetailPhotosCell.swift; sourceTree = "<group>"; };
+		B47E0D4525F5696300AAE172 /* BaoticPricelistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticPricelistView.swift; sourceTree = "<group>"; };
 		B48C9B6E25EE532C00518154 /* Marina Baotić.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marina Baotić.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48C9B7125EE532C00518154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B48C9B7325EE532C00518154 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B48C9B7525EE532C00518154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B48C9B7825EE532C00518154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B48C9B7A25EE532D00518154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B48C9B7D25EE532D00518154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B48C9B7F25EE532D00518154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48C9B8825EE54ED00518154 /* BaoticTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticTabBarController.swift; sourceTree = "<group>"; };
+		B48C9B8B25EE564B00518154 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B48C9B8F25EE65F400518154 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B48C9B9725EE80AE00518154 /* BaoticTitleLablel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticTitleLablel.swift; sourceTree = "<group>"; };
+		B48C9B9A25EE84C600518154 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		B48C9B9D25EE859F00518154 /* BaoticHeadline1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticHeadline1.swift; sourceTree = "<group>"; };
+		B48C9BC025EEABE600518154 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		B48C9BC325EEACC500518154 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		B48C9BC625EEAD0000518154 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		B48C9BD125EEE0E500518154 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		B49A1CD025F94BDC007541FD /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
+		B4D9006225F68D4A00E52E11 /* BaoticButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticButton.swift; sourceTree = "<group>"; };
+		B4DF63D025EFF6D800C6756D /* BaoticAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticAlert.swift; sourceTree = "<group>"; };
+		B4DF63D325EFFAF800C6756D /* BaoticError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticError.swift; sourceTree = "<group>"; };
+		B4DF63D725F02D5200C6756D /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		B4DF63DB25F02FD800C6756D /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		B4DF63E525F0387600C6756D /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		B4DF63EB25F0E58300C6756D /* ContentfulManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentfulManager.swift; sourceTree = "<group>"; };
+		B4DF63EF25F1056F00C6756D /* BaoticBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticBackgroundView.swift; sourceTree = "<group>"; };
+		B4DF63F625F1207400C6756D /* WebshopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebshopView.swift; sourceTree = "<group>"; };
+		B4F68F6D25F3AB7F002BF74A /* GastronomyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastronomyVC.swift; sourceTree = "<group>"; };
+		B4F68F7025F3F11F002BF74A /* BaoticScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticScrollView.swift; sourceTree = "<group>"; };
+		B4F68F8325F40BD1002BF74A /* ObjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectCell.swift; sourceTree = "<group>"; };
+		B4F68F8C25F4FA93002BF74A /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		B4F68F8F25F503C4002BF74A /* ObjectDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +91,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1215CAA1356CF9FFAE8E7B84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12FAB22CD0AEE8C879CFDB4D /* Pods-Marina Baotić.debug.xcconfig */,
+				0CAE7193B5FEBDB467C73989 /* Pods-Marina Baotić.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A2498C0907A8F3585E26D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B48C9B6525EE532B00518154 = {
 			isa = PBXGroup;
 			children = (
 				B48C9B7025EE532C00518154 /* Marina Baotić */,
 				B48C9B6F25EE532C00518154 /* Products */,
+				1215CAA1356CF9FFAE8E7B84 /* Pods */,
+				9A2498C0907A8F3585E26D9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +128,145 @@
 		B48C9B7025EE532C00518154 /* Marina Baotić */ = {
 			isa = PBXGroup;
 			children = (
+				B48C9BBE25EEAB6A00518154 /* View Controllers */,
+				B48C9BBB25EEAB1000518154 /* Custom Elements */,
+				B48C9BBA25EEAB0600518154 /* Extensions */,
+				B48C9BB925EEAAFE00518154 /* Models */,
+				B48C9BB825EEAAF400518154 /* Managers */,
+				B48C9BB725EEAAD700518154 /* Utilities */,
 				B48C9B7125EE532C00518154 /* AppDelegate.swift */,
 				B48C9B7325EE532C00518154 /* SceneDelegate.swift */,
-				B48C9B7525EE532C00518154 /* ViewController.swift */,
-				B48C9B7725EE532C00518154 /* Main.storyboard */,
 				B48C9B7A25EE532D00518154 /* Assets.xcassets */,
 				B48C9B7C25EE532D00518154 /* LaunchScreen.storyboard */,
 				B48C9B7F25EE532D00518154 /* Info.plist */,
 			);
 			path = "Marina Baotić";
+			sourceTree = "<group>";
+		};
+		B48C9BB725EEAAD700518154 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B48C9B8F25EE65F400518154 /* Constants.swift */,
+				B4DF63D325EFFAF800C6756D /* BaoticError.swift */,
+				B4DF63E525F0387600C6756D /* UIHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B48C9BB825EEAAF400518154 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B48C9BC625EEAD0000518154 /* WeatherManager.swift */,
+				B4DF63EB25F0E58300C6756D /* ContentfulManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B48C9BB925EEAAFE00518154 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B48C9BC025EEABE600518154 /* Weather.swift */,
+				B48C9BC325EEACC500518154 /* WeatherModel.swift */,
+				B4DF63DB25F02FD800C6756D /* News.swift */,
+				B4F68F8C25F4FA93002BF74A /* Object.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B48C9BBA25EEAB0600518154 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B48C9BD125EEE0E500518154 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B48C9BBB25EEAB1000518154 /* Custom Elements */ = {
+			isa = PBXGroup;
+			children = (
+				B4D9006125F68D1F00E52E11 /* Button */,
+				B4F68F7825F401CE002BF74A /* ScrollView */,
+				B4DF63D625F02D2100C6756D /* Cells */,
+				B4DF63C925EFF5DE00C6756D /* Alerts */,
+				B48C9BC925EEAE7F00518154 /* ViewControllers */,
+				B48C9BBD25EEAB3300518154 /* Views */,
+				B48C9BBC25EEAB2800518154 /* Labels */,
+			);
+			path = "Custom Elements";
+			sourceTree = "<group>";
+		};
+		B48C9BBC25EEAB2800518154 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				B48C9B9725EE80AE00518154 /* BaoticTitleLablel.swift */,
+				B48C9B9D25EE859F00518154 /* BaoticHeadline1.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		B48C9BBD25EEAB3300518154 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B48C9B9A25EE84C600518154 /* WeatherView.swift */,
+				B4DF63EF25F1056F00C6756D /* BaoticBackgroundView.swift */,
+				B4DF63F625F1207400C6756D /* WebshopView.swift */,
+				B47E0D4525F5696300AAE172 /* BaoticPricelistView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B48C9BBE25EEAB6A00518154 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B48C9B8B25EE564B00518154 /* HomeVC.swift */,
+				B4F68F6D25F3AB7F002BF74A /* GastronomyVC.swift */,
+				B49A1CD025F94BDC007541FD /* ServicesVC.swift */,
+				B47AA2E325FA783200284AAB /* WebCamsVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B48C9BC925EEAE7F00518154 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B48C9B8825EE54ED00518154 /* BaoticTabBarController.swift */,
+				B4F68F8F25F503C4002BF74A /* ObjectDetailVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B4D9006125F68D1F00E52E11 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				B4D9006225F68D4A00E52E11 /* BaoticButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		B4DF63C925EFF5DE00C6756D /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				B4DF63D025EFF6D800C6756D /* BaoticAlert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		B4DF63D625F02D2100C6756D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B4DF63D725F02D5200C6756D /* NewsCell.swift */,
+				B4F68F8325F40BD1002BF74A /* ObjectCell.swift */,
+				B47E0D4225F53A8C00AAE172 /* ObjectDetailPhotosCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B4F68F7825F401CE002BF74A /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B4F68F7025F3F11F002BF74A /* BaoticScrollView.swift */,
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48C9B8225EE532D00518154 /* Build configuration list for PBXNativeTarget "Marina Baotić" */;
 			buildPhases = (
+				C3A9BA073C07209CB9647958 /* [CP] Check Pods Manifest.lock */,
 				B48C9B6A25EE532C00518154 /* Sources */,
 				B48C9B6B25EE532C00518154 /* Frameworks */,
 				B48C9B6C25EE532C00518154 /* Resources */,
+				A561D3F15B2EAC9E2FFED364 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +330,94 @@
 			files = (
 				B48C9B7E25EE532D00518154 /* LaunchScreen.storyboard in Resources */,
 				B48C9B7B25EE532D00518154 /* Assets.xcassets in Resources */,
-				B48C9B7925EE532C00518154 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A561D3F15B2EAC9E2FFED364 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marina Baotić/Pods-Marina Baotić-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marina Baotić/Pods-Marina Baotić-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marina Baotić/Pods-Marina Baotić-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A9BA073C07209CB9647958 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marina Baotić-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B48C9B6A25EE532C00518154 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B48C9B7625EE532C00518154 /* ViewController.swift in Sources */,
+				B48C9B9025EE65F400518154 /* Constants.swift in Sources */,
+				B47E0D4625F5696300AAE172 /* BaoticPricelistView.swift in Sources */,
+				B4F68F6E25F3AB7F002BF74A /* GastronomyVC.swift in Sources */,
+				B4F68F8425F40BD1002BF74A /* ObjectCell.swift in Sources */,
+				B48C9BD225EEE0E500518154 /* UIViewController+Ext.swift in Sources */,
+				B4DF63DC25F02FD800C6756D /* News.swift in Sources */,
+				B4DF63D125EFF6D800C6756D /* BaoticAlert.swift in Sources */,
+				B4DF63F025F1056F00C6756D /* BaoticBackgroundView.swift in Sources */,
+				B48C9B8C25EE564B00518154 /* HomeVC.swift in Sources */,
+				B4DF63EC25F0E58300C6756D /* ContentfulManager.swift in Sources */,
+				B4DF63F725F1207400C6756D /* WebshopView.swift in Sources */,
+				B4F68F7125F3F11F002BF74A /* BaoticScrollView.swift in Sources */,
+				B4DF63D825F02D5200C6756D /* NewsCell.swift in Sources */,
+				B48C9B9825EE80AE00518154 /* BaoticTitleLablel.swift in Sources */,
+				B49A1CD125F94BDC007541FD /* ServicesVC.swift in Sources */,
+				B48C9B8925EE54ED00518154 /* BaoticTabBarController.swift in Sources */,
+				B48C9BC425EEACC500518154 /* WeatherModel.swift in Sources */,
+				B48C9BC125EEABE600518154 /* Weather.swift in Sources */,
+				B48C9BC725EEAD0000518154 /* WeatherManager.swift in Sources */,
 				B48C9B7225EE532C00518154 /* AppDelegate.swift in Sources */,
+				B4DF63E625F0387600C6756D /* UIHelper.swift in Sources */,
+				B4DF63D425EFFAF800C6756D /* BaoticError.swift in Sources */,
+				B48C9B9E25EE859F00518154 /* BaoticHeadline1.swift in Sources */,
+				B48C9B9B25EE84C600518154 /* WeatherView.swift in Sources */,
+				B47E0D4325F53A8C00AAE172 /* ObjectDetailPhotosCell.swift in Sources */,
+				B4F68F9025F503C4002BF74A /* ObjectDetailVC.swift in Sources */,
+				B4F68F8D25F4FA93002BF74A /* Object.swift in Sources */,
+				B47AA2E425FA783200284AAB /* WebCamsVC.swift in Sources */,
 				B48C9B7425EE532C00518154 /* SceneDelegate.swift in Sources */,
+				B4D9006325F68D4A00E52E11 /* BaoticButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B48C9B7725EE532C00518154 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B48C9B7825EE532C00518154 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B48C9B7C25EE532D00518154 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +547,7 @@
 		};
 		B48C9B8325EE532D00518154 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FAB22CD0AEE8C879CFDB4D /* Pods-Marina Baotić.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +567,7 @@
 		};
 		B48C9B8425EE532D00518154 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CAE7193B5FEBDB467C73989 /* Pods-Marina Baotić.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
