@@ -61,7 +61,7 @@ class ContentfulManager {
         }
     }
     
-    func getNewsArticles(vc:UIViewController, completion: @escaping(Result<[News], BaoticError>) -> Void) {
+    /*func getNewsArticles(vc:UIViewController, completion: @escaping(Result<[News], BaoticError>) -> Void) {
         vc.showLoadingView()
         var news = [News]()
         ContentfulManager.shared.getEntries(contentType: "newArticle") { (result) in
@@ -83,6 +83,34 @@ class ContentfulManager {
                
             }
         }
+    }*/
+    
+    func getNewsArticles(vc:UIViewController, completion: @escaping ([News]?) -> Void){
+        vc.showLoadingView()
+        var news = [News]()
+        ContentfulManager.shared.getEntries(contentType: "newArticle") { (result) in
+            vc.dismissLoadingView()
+            switch result {
+            case .success(let newsArticles):
+                newsArticles.forEach { (item) in
+                    let newsArticle = News(
+                        headline: item.fields["headline"] as? String ?? "",
+                        articleText: item.fields["articleText"] as? String ?? "",
+                        articleImage: item.fields.linkedAsset(at: "articleImage")?.url ?? URL(string: "")!,
+                        articleDestinationUrl: item.fields["articleDestinationUrl"] as? String ?? "https://www.baotic-yachting.com")
+                    news.append(newsArticle)
+                    completion(news)
+                }
+                let homeVCSetUpModel = HomeVCSetUp()
+                homeVCSetUpModel.newsArray = news
+            case .failure(let error):
+                DispatchQueue.main.async {
+                    BaoticAlert.showAlert(on: vc, title: "There is a problem.", message: error.rawValue)
+                }
+               
+            }
+        }
+        
     }
     
    

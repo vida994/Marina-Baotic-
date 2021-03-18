@@ -155,6 +155,7 @@ class ObjectDetailVC: UIViewController {
         addPageControl(view: collectionView, object: object!, pageControl: pageControl)
     }
     
+    
     private func configureObjectDescription() {
         contentView.addSubview(objectDescription)
         objectDescription.text = object?.longDescription

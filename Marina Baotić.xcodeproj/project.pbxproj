@@ -25,6 +25,7 @@
 		B48C9BC725EEAD0000518154 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9BC625EEAD0000518154 /* WeatherManager.swift */; };
 		B48C9BD225EEE0E500518154 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C9BD125EEE0E500518154 /* UIViewController+Ext.swift */; };
 		B49A1CD125F94BDC007541FD /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A1CD025F94BDC007541FD /* ServicesVC.swift */; };
+		B4CECE9A2603B88E0027DC82 /* HomeVCSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CECE992603B88E0027DC82 /* HomeVCSetUp.swift */; };
 		B4D9006325F68D4A00E52E11 /* BaoticButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D9006225F68D4A00E52E11 /* BaoticButton.swift */; };
 		B4DF63D125EFF6D800C6756D /* BaoticAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63D025EFF6D800C6756D /* BaoticAlert.swift */; };
 		B4DF63D425EFFAF800C6756D /* BaoticError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63D325EFFAF800C6756D /* BaoticError.swift */; };
@@ -64,6 +65,7 @@
 		B48C9BC625EEAD0000518154 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		B48C9BD125EEE0E500518154 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		B49A1CD025F94BDC007541FD /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
+		B4CECE992603B88E0027DC82 /* HomeVCSetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCSetUp.swift; sourceTree = "<group>"; };
 		B4D9006225F68D4A00E52E11 /* BaoticButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticButton.swift; sourceTree = "<group>"; };
 		B4DF63D025EFF6D800C6756D /* BaoticAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticAlert.swift; sourceTree = "<group>"; };
 		B4DF63D325EFFAF800C6756D /* BaoticError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticError.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				B48C9BC325EEACC500518154 /* WeatherModel.swift */,
 				B4DF63DB25F02FD800C6756D /* News.swift */,
 				B4F68F8C25F4FA93002BF74A /* Object.swift */,
+				B4CECE992603B88E0027DC82 /* HomeVCSetUp.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				B48C9B7225EE532C00518154 /* AppDelegate.swift in Sources */,
 				B4DF63E625F0387600C6756D /* UIHelper.swift in Sources */,
 				B4DF63D425EFFAF800C6756D /* BaoticError.swift in Sources */,
+				B4CECE9A2603B88E0027DC82 /* HomeVCSetUp.swift in Sources */,
 				B48C9B9E25EE859F00518154 /* BaoticHeadline1.swift in Sources */,
 				B48C9B9B25EE84C600518154 /* WeatherView.swift in Sources */,
 				B47E0D4325F53A8C00AAE172 /* ObjectDetailPhotosCell.swift in Sources */,

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Hero
 
 class ServicesVC: UIViewController {
 
@@ -17,13 +18,18 @@ class ServicesVC: UIViewController {
         super.viewDidLoad()
         setupViews()
         getObjects()
+        
+        
     }
+    
     
     private func setupViews() {
         view.backgroundColor = Colors.mainColor
         configureBackgroundImage()
         configureCollectionView()
     }
+    
+    
     
     func getObjects() {
         ContentfulManager.shared.getGastroObjects(contentType: "service", vc: self) { (result) in
@@ -49,7 +55,9 @@ class ServicesVC: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         
+                
         }
+
     
 }
 
