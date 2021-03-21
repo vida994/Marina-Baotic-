@@ -61,29 +61,37 @@ class ContentfulManager {
         }
     }
     
-    /*func getNewsArticles(vc:UIViewController, completion: @escaping(Result<[News], BaoticError>) -> Void) {
+    
+    func getObjects(contentType:String, vc:UIViewController, completion: @escaping ([Object]?) -> Void){
         vc.showLoadingView()
-        var news = [News]()
-        ContentfulManager.shared.getEntries(contentType: "newArticle") { (result) in
+        var fetchedObjects = [Object]()
+        ContentfulManager.shared.getEntries(contentType: contentType) { (result) in
             vc.dismissLoadingView()
             switch result {
-            case .success(let newsArticles):
-                newsArticles.forEach { (item) in
-                    let newsArticle = News(
+            case .success(let gastroObjects):
+                gastroObjects.forEach { (item) in
+                    let gastroObject = Object(
                         headline: item.fields["headline"] as? String ?? "",
-                        articleText: item.fields["articleText"] as? String ?? "",
-                        articleImage: item.fields.linkedAsset(at: "articleImage")?.url ?? URL(string: "")!,
-                        articleDestinationUrl: item.fields["articleDestinationUrl"] as? String ?? "https://www.baotic-yachting.com")
-                    news.append(newsArticle)
-                    completion(.success(news))
+                        openingHours: item.fields["openingHours"] as? String,
+                        mainImage: item.fields.linkedAsset(at: "mainImage")?.url ?? URL(string: "https://dl.dropbox.com/s/n3efhl7fa11f3wv/1603085475Marina-Baoti%C4%87-2020.jpg?dl=0")!,
+                        shortDescription: item.fields["shortDescription"] as? String ?? "",
+                        longDescription: item.fields["longDescription"] as? String ?? "",
+                        pricelist1: item.fields.linkedAsset(at: "pricelist1")?.url,
+                        pricelist2: item.fields.linkedAsset(at: "pricelist2")?.url,
+                        imageAsstets: item.fields.linkedAssets(at: "selecetionImages"),
+                        phoneNumber: item.fields["phoneNumber"] as? String ?? "+385912900057",
+                        email: item.fields["email"] as? String ?? "reception@marinabaotic.com")
+                    fetchedObjects.append(gastroObject)
+                    completion(fetchedObjects)
                 }
                 
             case .failure(let error):
-                completion(.failure(error))
-               
+                DispatchQueue.main.async {
+                    BaoticAlert.showAlert(on: vc, title: "There is a problem.", message: error.rawValue)
+                }
             }
         }
-    }*/
+    }
     
     func getNewsArticles(vc:UIViewController, completion: @escaping ([News]?) -> Void){
         vc.showLoadingView()

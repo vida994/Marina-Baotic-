@@ -36,6 +36,7 @@
 		B4DF63F025F1056F00C6756D /* BaoticBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63EF25F1056F00C6756D /* BaoticBackgroundView.swift */; };
 		B4DF63F725F1207400C6756D /* WebshopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF63F625F1207400C6756D /* WebshopView.swift */; };
 		B4DFE74F2605FD3200698F6C /* WebcamsVCSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFE74E2605FD3200698F6C /* WebcamsVCSetUp.swift */; };
+		B4DFE7522606782A00698F6C /* ObjectsVCSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFE7512606782A00698F6C /* ObjectsVCSetup.swift */; };
 		B4F68F6E25F3AB7F002BF74A /* GastronomyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F68F6D25F3AB7F002BF74A /* GastronomyVC.swift */; };
 		B4F68F7125F3F11F002BF74A /* BaoticScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F68F7025F3F11F002BF74A /* BaoticScrollView.swift */; };
 		B4F68F8425F40BD1002BF74A /* ObjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F68F8325F40BD1002BF74A /* ObjectCell.swift */; };
@@ -77,6 +78,7 @@
 		B4DF63EF25F1056F00C6756D /* BaoticBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticBackgroundView.swift; sourceTree = "<group>"; };
 		B4DF63F625F1207400C6756D /* WebshopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebshopView.swift; sourceTree = "<group>"; };
 		B4DFE74E2605FD3200698F6C /* WebcamsVCSetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcamsVCSetUp.swift; sourceTree = "<group>"; };
+		B4DFE7512606782A00698F6C /* ObjectsVCSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsVCSetup.swift; sourceTree = "<group>"; };
 		B4F68F6D25F3AB7F002BF74A /* GastronomyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastronomyVC.swift; sourceTree = "<group>"; };
 		B4F68F7025F3F11F002BF74A /* BaoticScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaoticScrollView.swift; sourceTree = "<group>"; };
 		B4F68F8325F40BD1002BF74A /* ObjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectCell.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				B4F68F8C25F4FA93002BF74A /* Object.swift */,
 				B4CECE992603B88E0027DC82 /* HomeVCSetUp.swift */,
 				B4DFE74E2605FD3200698F6C /* WebcamsVCSetUp.swift */,
+				B4DFE7512606782A00698F6C /* ObjectsVCSetup.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				B48C9B9825EE80AE00518154 /* BaoticTitleLablel.swift in Sources */,
 				B49A1CD125F94BDC007541FD /* ServicesVC.swift in Sources */,
 				B48C9B8925EE54ED00518154 /* BaoticTabBarController.swift in Sources */,
+				B4DFE7522606782A00698F6C /* ObjectsVCSetup.swift in Sources */,
 				B48C9BC425EEACC500518154 /* WeatherModel.swift in Sources */,
 				B48C9BC125EEABE600518154 /* Weather.swift in Sources */,
 				B48C9BC725EEAD0000518154 /* WeatherManager.swift in Sources */,
