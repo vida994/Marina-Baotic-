@@ -1,0 +1,32 @@
+PODS:
+  - Contentful (5.4.1):
+    - Contentful/ImageOptions (= 5.4.1)
+  - Contentful/ImageOptions (5.4.1)
+  - Hero (1.5.0)
+  - PureLayout (3.1.7)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+
+DEPENDENCIES:
+  - Contentful
+  - Hero
+  - PureLayout
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Contentful
+    - Hero
+    - PureLayout
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Contentful: 3cce0a74079b430c3bcd2f2ffe91357184783c99
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  PureLayout: e9e5921347547e1068333f3149e737c972cb6037
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+
+PODFILE CHECKSUM: 29b1d553db4b027248f4906133b2f2f759ab8551
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,6 @@
+framework module Pods_Marina_Baotic_ {
+  umbrella header "Pods-Marina Baotić-umbrella.h"
+
+  export *
+  module * { export * }
+}
