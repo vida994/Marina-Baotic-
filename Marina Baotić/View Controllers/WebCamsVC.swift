@@ -15,7 +15,7 @@ class WebCamsVC: UIViewController {
         super.viewDidLoad()
         setUp()
         webcamVCSetupModel.configureUI()
-         
+        
     }
     
     private func setUp() {
